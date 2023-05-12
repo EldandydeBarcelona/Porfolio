@@ -1,0 +1,119 @@
+html, body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    color: purple;
+}
+
+h2, h3 {
+    margin-bottom: 15px;
+}
+ul {
+    list-style: none;
+}
+
+p {
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+} 
+
+.logo {
+    width: 200px;
+
+    height: 120px;
+}
+
+.miFoto {
+    height: 400px;
+    width: 400px;
+}
+
+.btn-outline {
+    border: 2px solid #fabada;
+    color: white;
+}
+
+#main {
+    background: url(./Imagenes/programación.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#navbar {
+    height: 120px;
+
+}
+
+#navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+#navbar a {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    margin-left: 40px;
+}
+
+#showcase {
+    text-align: center;
+    padding-top: 200px;
+}
+
+#sobremi {
+    padding: 60px 0;
+}
+
+#sobremi h2 {
+    text-align: center;
+}
+
+#sobremi .sobremi-row {
+    display: flex;
+}
+
+#sobremi .sobremi-row-box {
+    border: 2px solid gray;
+    margin: 10px;
+    padding: 30px 25px ;
+
+}
+
+#foto {
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#contact {
+    padding: 100px 0;
+}
+
+#contact .container {
+    display: flex;
+    justify-content: space-between;
+}
